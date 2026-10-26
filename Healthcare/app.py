@@ -152,18 +152,18 @@ def seed_data():
     conn.execute("DELETE FROM patients")
     patients = [
         {
-            "first_name": "Ava",
-            "last_name": "Smith",
-            "dob": "1988-03-12",
+            "first_name": "Sakshi",
+            "last_name": "Chavhan",
+            "dob": "2002-05-03",
             "ssn": "123-45-6789",
             "mrn": "MRN-1001",
             "diagnosis": "Hypertension",
             "last_visit": "2026-10-12"
         },
         {
-            "first_name": "Liam",
-            "last_name": "Jones",
-            "dob": "1975-08-02",
+            "first_name": "Gayatri",
+            "last_name": "Chavhan",
+            "dob": "2004-05-02",
             "ssn": "987-65-4321",
             "mrn": "MRN-1002",
             "diagnosis": "Type 2 Diabetes",
