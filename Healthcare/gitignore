@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+healthcare.db
+*.log
+.DS_Store
